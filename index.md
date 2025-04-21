@@ -176,6 +176,8 @@ Check out the full code and play with SPELL here:
 👉 [[SPELL on Kaggle](https://www.kaggle.com/code/lisafriedman/capstone-project-2025q1-final)]
 Feel free to fork it, remix it, or use it as a base for your own GenAI-powered games!
 
+[[Watch my YouTube Video](https://www.youtube.com/watch?v=TXV50ZGv10E)]
+
 
 🧪 Go forth and build!
 
