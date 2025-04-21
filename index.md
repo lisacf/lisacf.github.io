@@ -67,64 +67,10 @@ SPELL is powered by **two LangGraph graphs** — one for game setup, and one for
 
 - The **bootstrap phase** handles everything from the AI greeting to selecting the theme and generating the anchor word.
 - The **gameplay phase** handles guesses, scoring, hints, and win conditions.
+![mermaid1](https://github.com/user-attachments/assets/fbfec77e-ebed-45ca-ad3b-62745b345ac8)
 
-```mermaid
----
-config:
-  flowchart:
-    curve: linear
----
-graph TD;
-	__start__([<p>__start__</p>]):::first
-	show_intro_prompt(show_intro_prompt)
-	get_theme_from_player(get_theme_from_player)
-	generate_puzzle(generate_puzzle)
-	enrich_word_metadata(enrich_word_metadata)
-	request_theme_retry(request_theme_retry)
-	__end__([<p>__end__</p>]):::last
-	__start__ --> show_intro_prompt;
-	generate_puzzle --> enrich_word_metadata;
-	request_theme_retry --> get_theme_from_player;
-	show_intro_prompt --> get_theme_from_player;
-	get_theme_from_player -. &nbsp;continue&nbsp; .-> generate_puzzle;
-	get_theme_from_player -. &nbsp;end&nbsp; .-> __end__;
-	enrich_word_metadata -. &nbsp;retry&nbsp; .-> request_theme_retry;
-	enrich_word_metadata -. &nbsp;end&nbsp; .-> __end__;
-	classDef default fill:#f2f0ff,line-height:1.2
-	classDef first fill-opacity:0
-	classDef last fill:#bfb6fc
-```
+![mermaid2](https://github.com/user-attachments/assets/69375e94-d4be-44f3-a071-1dcff70beb18)
 
-```mermaid
----
-config:
-  flowchart:
-    curve: linear
----
-graph TD;
-	__start__(<p>__start__</p>)
-	get_player_guess(get_player_guess)
-	process_guess(process_guess)
-	hint_player(hint_player)
-	enrich_word_metadata(enrich_word_metadata)
-	reveal_random_word(reveal_random_word)
-	define_word(define_word)
-	end_game(end_game)
-	__start__ --> get_player_guess;
-	define_word --> get_player_guess;
-	hint_player --> get_player_guess;
-	process_guess --> get_player_guess;
-	reveal_random_word --> get_player_guess;
-	get_player_guess -. &nbsp;guess&nbsp; .-> process_guess;
-	get_player_guess -. &nbsp;hint&nbsp; .-> hint_player;
-	get_player_guess -. &nbsp;reveal&nbsp; .-> reveal_random_word;
-	get_player_guess -. &nbsp;define&nbsp; .-> define_word;
-	get_player_guess -. &nbsp;quit&nbsp; .-> end_game;
-	get_player_guess -.-> end_game;
-	classDef default fill:#f2f0ff,line-height:1.2
-	classDef first fill-opacity:0
-	classDef last fill:#bfb6fc
-```
 
 This separation of setup and gameplay allows better error handling, retries, and user control — while LangGraph ensures clarity and structure in the game's flow.
 
