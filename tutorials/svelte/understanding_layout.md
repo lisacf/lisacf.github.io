@@ -1,3 +1,8 @@
+---
+layout: default
+title: Svelte Tutorial - Understanding Layout
+permalink: /tutorials/svelte/understanding_layout.md
+---
 # 🏛 Understanding `+layout.svelte` in SvelteKit
 
 When I created my SvelteKit tutorial project, one of the first files I noticed was:
