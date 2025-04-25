@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Svelte Tutorial - Understanding Keys
+title: Understanding Keys
 permalink: /tutorials/svelte/understanding-keys/
 ---
 
