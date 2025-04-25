@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Components, Props, Slot, Children, and $props()"
+permalink: /tutorials/svelte/components-props-slot-etc/
+---
 # 🧠 Understanding Components, Props, Slot, and Children in SvelteKit (Beginner’s Guide)
 
 As I work through my SvelteKit tutorial project, I ran into terms like:
