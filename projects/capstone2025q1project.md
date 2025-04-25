@@ -1,3 +1,8 @@
+---
+layout: default
+title: Projects
+permalink: /projects/capstone2025q1project
+---
 ## ✨ Introduction: Bringing Magic to Word Games with Gen AI
 
 Hi there! I'm excited to share my project for **Google's** Generative AI Intensive Course Capstone 2025Q1 — a spellbinding word game called **SPELL**, short for **Semantic Processing Engine for Lexical Learning**. 🧙‍♀️
