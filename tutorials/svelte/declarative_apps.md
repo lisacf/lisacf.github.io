@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Svelte Tutorial - Declarative Apps
+title: Declarative Apps
 permalink: /tutorials/svelte/declarative_apps/
 ---
 
