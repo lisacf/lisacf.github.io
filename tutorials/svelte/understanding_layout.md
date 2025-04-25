@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Svelte Tutorial - Understanding Layout
+title: Understanding Layout
 permalink: /tutorials/svelte/understanding_layout/
 ---
 # 🏛 Understanding `+layout.svelte` in SvelteKit
