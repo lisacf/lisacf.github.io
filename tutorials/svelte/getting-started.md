@@ -25,4 +25,15 @@ Svelte is a user-interface framework that helps you build web apps with plain Ja
 
 **Reactivity**, **Components**, **Runtime** Have no fear this tutorial describes these words one page at a time.  Keeping things clear and simple.
 
+Svelte is a **Declarative** framework for web apps.
+
+Other declarative frameworks include 
+- React (for web apps)
+- SwiftUI (for iOS apps)
+- Flutter (for cross-platform apps)
+
+Instead of manually updating the UI when things change, you just update the state, and the framework automatically rebuilds the correct UI based on that state.
+
+Read what it means to be declarative in [Declarative Apps](declarative_app.md) section.
+
 
