@@ -5,7 +5,7 @@ permalink: /tutorials/svelte/getting-started/
 ---
 # Getting Started with Svelte
 
-Welcome! 🎉 This walkthrough is built for beginners. We’ll move step-by-step through the basics of Svelte, explaining each detail along the way. If you’ve done a bit of HTML, CSS, or JavaScript before, that’s great—but don’t worry if you’re new to some concepts. We’ll cover everything you need to know.
+Welcome! 🎉 This walkthrough is built for beginners. We’ll move step-by-step through the basics of Svelte, explaining each detail along the way. If you’ve done a bit of HTML, CSS, or JavaScript before that will help.  I'll dive into detailed explanations of how Svelte works along the way.
 
 Before diving in here, make sure you’ve:
 
@@ -34,6 +34,6 @@ Other declarative frameworks include
 
 Instead of manually updating the UI when things change, you just update the state, and the framework automatically rebuilds the correct UI based on that state.
 
-Read what it means to be declarative in [Declarative Apps](declarative_app.md) section.
+Read what it means to be declarative in [Declarative Apps](/tutorials/svelte/declarative_app.md) section.
 
 
