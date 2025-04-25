@@ -87,7 +87,25 @@ Example:
 > Never use just the array index (`0, 1, 2`) as a key — it defeats the purpose if the list order changes.
 
 ---
+## 🐾 Quick Detour: What’s a Link? What’s a Slug?
 
+When we use `{ demo.link }` as a key, what is that *really*?
+
+- **Link** → A path to a page, like `/mood-tracker` or `/counter`.  
+- **Slug** → A short, human-readable identifier, often used in URLs.  
+  Example: In `/imperative-vs-declarative`, the **slug** is `imperative-vs-declarative`.
+
+🔗 You can think of a **slug** like a cute little nickname for a page!  
+Instead of remembering a long ugly URL like:
+
+```plaintext
+https://example.com/page?id=98765432
+```
+You get a nice, clean one:
+```plaintext
+https://example.com/mood-tracker
+```
+---
 ## 💬 Final Thoughts
 
 Learning about **keys** is a fundamental part of understanding how declarative frameworks like Svelte work under the hood.
@@ -107,6 +125,4 @@ It’s a small step — but it’s a **big leap** in becoming a great frontend d
 Now that I understand keys, I’m going to **refactor my homepage** to display my experiments in a nice **grid of cards** — using TailwindCSS for styling.  
 
 Stay tuned for that! 🎨
-```
-
 ---
