@@ -1,3 +1,9 @@
+---
+layout: default
+title: Svelte Tutorial - Export & Let
+permalink: /tutorials/svelte/export_let.md
+---
+
 # 🎯 Beginner's Guide to `export let` in Svelte
 
 As I build my SvelteKit tutorial app, I keep seeing code like this:
