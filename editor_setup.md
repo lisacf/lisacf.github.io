@@ -65,3 +65,16 @@ Here’s a basic `settings.json` starter you can use:
   "prettier.enableDebugLogs": false,
   "svelte.plugin.typescript.enable": true
 }
+
+### 💡 Bonus: Sharing Helpful Editor Extensions with .vscode/extensions.json
+
+To make my SvelteKit tutorial project even more beginner-friendly (and easier to maintain), I added a file called: .vscode/extensions.json
+
+
+This file tells VS Code to **recommend helpful extensions** automatically when someone opens the project. If you're following along or sharing this repo with others, they’ll be prompted to install the right tools — like the Svelte language support, Prettier, TailwindCSS IntelliSense, and even Storybook snippets.
+
+It’s a small touch that makes a big difference when you're learning (or collaborating later), and it helps keep the whole coding environment **consistent, smooth, and ready-to-code.**
+
+
+
+
