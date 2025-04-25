@@ -1,3 +1,8 @@
+---
+layout: default
+title: "app.css in TailwindCSS Projects"
+permalink: /tutorials/svelte/app-css-and-tailwind/
+---
 # 🎨 Understanding `app.css` in TailwindCSS Projects
 
 When I first started building my SvelteKit tutorial app, I noticed that there was already an `app.css` file set up for me.
