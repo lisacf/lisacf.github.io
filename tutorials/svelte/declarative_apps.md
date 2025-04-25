@@ -1,3 +1,9 @@
+---
+layout: default
+title: Svelte Tutorial - Declarative Apps
+permalink: /tutorials/svelte/
+---
+
 # 🤔 Declarative vs. Imperative: What Does It *Really* Mean in Svelte?
 
 As I dive deeper into building with SvelteKit, I keep running into the term **"declarative framework."**  
