@@ -1,12 +1,8 @@
-Svelte is a **Declarative** framework for web apps.
-
-Other declarative frameworks include 
-- React (for web apps)
-- SwiftUI (for iOS apps)
-- Flutter (for cross-platform apps)
-
-Instead of manually updating the UI when things change, you just update the state, and the framework automatically rebuilds the correct UI based on that state.
-
+---
+layout: default
+title: "Create Your First Svelte App"
+permalink: /tutorials/svelte/create-your-first-app/
+---
 Setting up SvelteKit for learning
 
  % npx sv create my-sveltekit-tutorial
