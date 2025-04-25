@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Svelte Tutorial - Understanding Layout
-permalink: /tutorials/svelte/understanding_layout.md
+permalink: /tutorials/svelte/understanding_layout/
 ---
 # 🏛 Understanding `+layout.svelte` in SvelteKit
 
