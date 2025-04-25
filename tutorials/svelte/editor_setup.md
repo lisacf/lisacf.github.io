@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Svelte Tutorial - Editor Setup
+title: Editor Setup
 permalink: /tutorials/svelte/editor_setup/
 ---
 
