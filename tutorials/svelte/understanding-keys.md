@@ -1,3 +1,9 @@
+---
+layout: default
+title: Svelte Tutorial - Understanding Keys
+permalink: /tutorials/svelte/understanding-keys.md
+---
+
 # 🔑 Understanding "Keys" in Svelte: Why They Matter in Loops
 
 While building my SvelteKit tutorial app, I ran into an important rule:  
