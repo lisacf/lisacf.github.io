@@ -1,3 +1,9 @@
+---
+layout: default
+title: Svelte Tutorial - Editor Setup
+permalink: /tutorials/svelte/editor_setup.md
+---
+
 # 🛠 Setting Up Your Editor for SvelteKit: A Beginner's Guide
 
 When you're learning a new framework like **SvelteKit**, your choice of editor can make a **huge difference** in how smooth, fun, and efficient your experience is.
