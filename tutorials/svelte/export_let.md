@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Svelte Tutorial - Export & Let
+title: Export & Let
 permalink: /tutorials/svelte/export_let/
 ---
 
