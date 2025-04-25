@@ -70,7 +70,6 @@ Now let's use it inside a page!
 
 <h1 class="text-2xl font-bold mb-6">🧪 Prop Passing Playground</h1>
 
-<PlaygroundButton />
 <PlaygroundButton label="Click Me!" />
 <PlaygroundButton label="Submit" />
 <PlaygroundButton label="Save Changes" />
@@ -96,6 +95,64 @@ you can set it directly when exporting:
 ✅ Now if no `label` is passed, it will automatically use `"Default Text"`.
 
 ---
+<details>
+<summary>💡 Beginner Tip: Using Default Values for Props</summary>
+
+Sometimes, you want your component to **still work nicely even if no prop is passed**.
+
+✅ You can do this easily by giving your `export let` a **default value**.
+
+Example:
+
+```svelte
+<script>
+  export let label = "Default Prop Label Value";
+</script>
+
+<button>{label}</button>
+```
+
+---
+
+### 🧠 Why this matters:
+
+- If the parent passes a prop ➔ The component **uses the passed-in value**.
+- If the parent does **not** pass a prop ➔ The component **falls back to the default**.
+
+---
+
+### 🛠 Example:
+
+```svelte
+<!-- Usage examples -->
+
+<Button label="Save" /> <!-- Shows "Save" -->
+
+<Button /> <!-- Shows "Default Prop Label Value" -->
+```
+
+✅ This makes your components **more flexible**, **more beginner-friendly**, and **less likely to break**.
+
+---
+
+**Good Habit:**  
+Whenever a prop is optional, **consider giving it a default**! 🎯
+</details>
+
+## 🧪 Tiny Challenge: Try a Button Without Passing a Prop!
+
+Now that you know how default props work, try this:
+
+1. Use your `PlaygroundButton` component **without** passing a `label` prop.
+2. See what text appears!
+3. Then try passing a `label` again and notice how it changes.
+
+Example:
+
+```svelte
+<PlaygroundButton /> <!-- No label prop passed -->
+<PlaygroundButton label="Save" /> <!-- Label prop passed -->
+```
 
 ## 💬 Final Thoughts
 
