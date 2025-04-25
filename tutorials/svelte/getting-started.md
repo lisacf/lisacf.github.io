@@ -7,12 +7,6 @@ permalink: /tutorials/svelte/getting-started/
 
 Welcome! 🎉 This walkthrough is built for beginners. We’ll move step-by-step through the basics of Svelte, explaining each detail along the way. If you’ve done a bit of HTML, CSS, or JavaScript before that will help.  I'll dive into detailed explanations of how Svelte works along the way.
 
-Before diving in here, make sure you’ve:
-
-1. Set up your code editor (see [Editor Setup](/tutorials/svelte/editor-setup.md)).
-
-Once you’re ready, let’s get started!
-
 ---
 
 ## What Is Svelte?
