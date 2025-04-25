@@ -458,9 +458,13 @@ It’s massive (hundreds of folders!) — but it's not something you work in dir
 
 ---
 ```
+#  Run your my-sveltekit-tutorial app
+```bash
+yarn run dev --open
+```
+A window in your browser will open and you will see.  Or open a browser and navigate to localhost:5173
 
-
-
+<img width="388" alt="Screenshot 2025-04-25 at 1 05 58 PM" src="https://github.com/user-attachments/assets/dc006bbe-debc-4402-b744-a9428518c9e3" />
 
 
 
