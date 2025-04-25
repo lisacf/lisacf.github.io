@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Svelte Tutorial - Understanding Keys
-permalink: /tutorials/svelte/understanding-keys.md
+permalink: /tutorials/svelte/understanding-keys/
 ---
 
 # 🔑 Understanding "Keys" in Svelte: Why They Matter in Loops
