@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Svelte Tutorial - Declarative Apps
-permalink: /tutorials/svelte/declarative_apps.md
+permalink: /tutorials/svelte/declarative_apps/
 ---
 
 # 🤔 Declarative vs. Imperative: What Does It *Really* Mean in Svelte?
