@@ -52,6 +52,12 @@ You manage **everything**, including updating the DOM yourself.
 The second one says what you want. The first one tells them how to do it, step by step.
 
 ---
+## Let's Set up our Code Editor to Support Svelte
+Before diving in here, make sure you’ve:
+
+[Setup Your Editor](/tutorials/svelte/editor-setup.md)).
+
+Once you’re ready, let’s get started!
 
 ## 🔥 Let’s Code the Difference
 
@@ -121,22 +127,6 @@ This approach can get **very messy** as the UI grows.
 - You don’t call `document.createElement()` or `innerText = ...`
 - Event handling (`on:click`, `bind:value`) is built into the markup
 
----
-
-## 🧪 Your Challenge: See it for Yourself
-
-Try building these two tiny apps:
-
-1. A **To-Do List** in **Svelte**  
-   → Add, toggle complete, and delete items — just by managing state
-
-2. The **same app** in **vanilla JavaScript**  
-   → Create all DOM nodes manually and update them as items change
-
-When you compare them, you'll *feel* the difference between declarative and imperative thinking.
-
----
-
 ## 💬 Final Thoughts
 
 Understanding the difference between **declarative** and **imperative** UI is more than just a theory — it reshapes how you think about building apps.
@@ -155,9 +145,3 @@ I’ll be building a small **Mood Tracker component** in Svelte that uses state,
 It’s a great way to reinforce the declarative model — with real code and real testing.
 
 Stay tuned! 🔮
-```
-
----
-
-Would you like me to help you write the code + test + story for that Mood Tracker component next so it pairs perfectly with this post?  
-You’ll be building up an amazing example library as you go! 🧠📚🧪
