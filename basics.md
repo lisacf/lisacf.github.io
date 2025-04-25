@@ -241,7 +241,7 @@ Once you select this the storybook setup will begin.  Once it is done you will s
 └  You're all set!
 
 
-# 🚀 Setting Up My SvelteKit Tutorial App (with TailwindCSS + Storybook)
+# 🚀 Setting Up My SvelteKit Tutorial App (with TailwindCSS + Vitest + Storybook)
 
 I decided to build a **SvelteKit tutorial app** to learn the core concepts of SvelteKit, TailwindCSS, Storybook, and TypeScript — and to prepare for my future word game apps.
 
@@ -365,6 +365,42 @@ After setup completed, the program showed the next steps:
 ✅ Setup complete! Ready to start coding.
 
 ---
+
+---
+# Creating a github repo for your projects
+## 🔥 Quick Visual Summary:
+
+| Step | What you do                             | Tools  |
+|:-----|:----------------------------------------|:-------|
+| 1    | Create project locally                  | Terminal |
+| 2    | `git init`, `git add`, `git commit`      | Terminal |
+| 3    | Create empty repo on GitHub              | Web browser |
+| 4    | `git remote add origin`, `git push`      | Terminal |
+
+---
+
+### 🧠 Why this order?
+
+- You control everything **locally** first — no GitHub mess-ups.
+- Your **local history** (the clean initial commit) is preserved exactly.
+- You link the GitHub repo **only after** you know your local project is ready.
+- No duplicate `.git` folders, no weird "merge" prompts from a pre-filled repo.
+
+---
+
+### 📋 Tip: What GitHub will show you
+
+After you create the repo, it shows a helpful guide like:
+
+```bash
+echo "# my-sveltekit-tutorial" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+git push -u origin main
+
 
 # 🎯 What's Next?
 
