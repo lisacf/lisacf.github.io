@@ -1,3 +1,8 @@
+---
+layout: default
+title: Understanding State
+permalink: /tutorials/svelte/concepts/understanding-state/
+---
 # 🧠 Understanding the Concept of "State" in Svelte
 
 As I dive deeper into Svelte and SvelteKit, one word keeps popping up:
