@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "app.css in TailwindCSS Projects"
-permalink: /tutorials/svelte/app-css-and-tailwind/
+permalink: /tutorials/svelte/system/app-css-and-tailwind/
 ---
 # 🎨 Understanding `app.css` in TailwindCSS Projects
 
