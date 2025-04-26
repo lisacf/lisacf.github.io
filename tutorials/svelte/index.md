@@ -82,9 +82,46 @@ before moving on to the next.
 
 ---
 
+# 📚 Blog Organization
+
+This blog contains two types of posts:
+
+---
+
+## 🧩 Core Concepts
+
+These posts explain *how to think and build* with Svelte:
+
+- 📚 [Understanding Props](/concepts/understanding-props.md)
+- 📚 [Understanding State](/concepts/understanding-state.md)
+- 📚 [Understanding Slots and Children](/concepts/understanding-slots.md)
+- 📚 [Managing Local State in Components](/concepts/local-state.md)
+
+---
+
+## ⚙️ How SvelteKit Projects Work
+
+These posts explain *how your project is structured and configured*:
+
+- ⚙️ [Understanding app.css and TailwindCSS Setup](/system/appcss-tailwind-setup.md)
+- ⚙️ [Understanding Layouts in SvelteKit](/system/understanding-layouts.md)
+- ⚙️ [Project File Structure Explained](/system/project-file-structure.md)
+
+---
+
+## 🛠 Experiments and Tiny Challenges
+
+Apply what you learn by building small live examples:
+
+- 🛠 [Prop Passing Playground](/experiments/prop-passing.md)
+- 🛠 [Counter Using State](/experiments/counter-state.md)
+- 🧪 [Tiny Challenge: Try Buttons with and without Props](/experiments/prop-challenge.md)
+
+
 ## 🚀 Let’s Learn Svelte Together!
 
 Each post builds a little more knowledge —  
 and by the end, we'll have not just read about Svelte — but **really used it** to build a growing set of real components and apps.
 
 Thanks for joining me on this journey! 🌱✨
+
