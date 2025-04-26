@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Editor Setup
-permalink: /tutorials/svelte/editor_setup/
+permalink: /tutorials/svelte/setup/editor-setup/
 ---
 
 # 🛠 Setting Up Your Editor for SvelteKit: A Beginner's Guide
