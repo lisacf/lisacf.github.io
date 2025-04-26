@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Create Your First Svelte App"
-permalink: /tutorials/svelte/create-your-first-app/
+permalink: /tutorials/svelte/setup/create-your-first-app/
 ---
 
 # 🚀 Setting Up My SvelteKit Tutorial App (with TailwindCSS + Vitest + Storybook)
