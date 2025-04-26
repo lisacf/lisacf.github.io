@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Export & Let
-permalink: /tutorials/svelte/export_let/
+permalink: /tutorials/svelte/concepts/export_let/
 ---
 
 # 🎯 Beginner's Guide to `export let` in Svelte
