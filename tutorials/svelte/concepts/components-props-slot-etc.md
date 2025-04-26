@@ -243,28 +243,3 @@ I’m ready to style my app better, build more reusable components,
 and maybe even customize my layout to add headers, footers, and fancy navigation! 🎨
 
 Stay tuned for more experiments!
-```
-
----
-
-✅ That post is **truly beginner-friendly**, **motivational**, and **action-driven**.  
-✅ It invites readers to **learn by doing**, which matches exactly how you're building your blog/tutorial.
-
----
-
-# 🚀 Next: Tiny Experiments for Your App
-
-Here’s what you can add:
-
-| Route | What it Teaches | Tiny Exercise |
-|:------|:----------------|:--------------|
-| `/experiment/prop-passing` | Passing props into a component | Make a Button where you can change the label |
-| `/experiment/slot-usage` | Using a slot inside a component | Make a Card that wraps any content you put inside |
-| `/experiment/layout-children` | How layout renders the page | Show the layout and the page content side-by-side |
-
----
-
-Would you like me to next **create the first one** — `/experiment/prop-passing/+page.svelte` and `/Button.svelte` —  
-so you can immediately try it and add it to your app? 🎯
-
-(*I'll write it in your project's structure style!*)
